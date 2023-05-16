@@ -31,9 +31,17 @@ let evenRed =()=>{
         heart.style.color="red";
         return;
     }
+   
 }
 
 heart.addEventListener("click",evenRed)
+
+let evenBlack=()=>{
+    heart.style.color="black";
+}
+
+
+heart.addEventListener("dblclick",evenBlack)
 
 
 
